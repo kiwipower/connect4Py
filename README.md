@@ -3,11 +3,11 @@ Connect4 in python! For interviewing people who know some python.
 
 ## Information
 
-* We have set the project up so you can focus on the requirements, no need to worry about rendering anything to the screen.  Anything in runner.js is not part the test, though if you finish the test, feel free to refactor it.
-* The scaffold class (Connect4.js) has some expectations for it to work correctly:
+* We have set the project up so you can focus on the requirements, no need to worry about rendering anything to the screen.  Anything in app.py is not part the test, though if you finish the test, feel free to refactor it.
+* The scaffold class (connect_4.py) has some expectations for it to work correctly:
     * has a board consisting of an nested array of strings
     * the string is only one character long
-    * any errors thrown in Connect4.js will not alternate to the other player
+    * any errors thrown in connect_4.py will not alternate to the other player
     
 ## User Requirements
 
