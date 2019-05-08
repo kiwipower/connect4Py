@@ -21,9 +21,9 @@ def main():
     player_one = True
     while game.in_progress:
         print(display(game.board))
-        player = 1 if player_one else 2
-        column = input("Enter your move player %d: " % player)
         try:
+            player = 1 if player_one else 2
+            column = input("Enter your move player %d: " % player)
             game.select_column(column, player)
         except:
             print("*** Error occurred please try again ***")
