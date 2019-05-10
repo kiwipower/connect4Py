@@ -9,6 +9,15 @@ Connect4 in python! For interviewing people who know some python.
     * the string is only one character long
     * any errors thrown in connect_4.py will not alternate to the other player
     
+    
+## Run the tests
+
+```
+➜  connect4py git:(master) ✗ python -m venv venv
+➜  connect4py git:(master) ✗ source venv/bin/activate
+(venv) ➜  connect4py git:(master) ✗ python -m unittest test/connect_4_test.py
+.
+```   
 ## User Requirements
 
 ```
